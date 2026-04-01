@@ -68,7 +68,7 @@ export default function Footer() {
             <div className="space-y-6">
               <div className="flex gap-4 items-start text-gray-400">
                 <MapPin className="w-5 h-5 flex-shrink-0 text-accent" />
-                <p className="text-sm">Serving PA, NJ, DE, MD, TX, FL</p>
+                <p className="text-sm">PA, NJ, DE, MD, TX, FL</p>
               </div>
               <div className="flex gap-4 items-start text-gray-400">
                 <Phone className="w-5 h-5 flex-shrink-0 text-accent" />
