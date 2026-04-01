@@ -86,10 +86,9 @@ export default function ContactPage() {
                     <MapPin className="w-6 h-6" />
                   </div>
                   <div className="space-y-1">
-                    <h4 className="text-lg font-bold text-primary">Our Headquarters</h4>
+                    <h4 className="text-lg font-bold text-primary">Locations Served</h4>
                     <p className="text-muted leading-relaxed">
-                      [Insert Address Based on PRD/User info]<br />
-                      Lagos, Nigeria
+                      PA, NJ, DE, MD, TX, FL
                     </p>
                   </div>
                 </div>
@@ -102,7 +101,7 @@ export default function ContactPage() {
                     <h4 className="text-lg font-bold text-primary">Direct Line</h4>
                     <p className="text-muted leading-relaxed">
                       [Insert Phone info]<br />
-                      Mon - Fri, 9am - 6pm (WAT)
+                      Mon - Fri, 9am - 6pm (EST)
                     </p>
                   </div>
                 </div>

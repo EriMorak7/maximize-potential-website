@@ -4,7 +4,7 @@ import { MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function FloatingWhatsApp() {
-  const phoneNumber = "+2340000000000"; // Placeholder for the user to update
+  const phoneNumber = "+10000000000"; // Placeholder for the user to update
   const message = "Hello Maximize Potential! I'm interested in your consulting services.";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 

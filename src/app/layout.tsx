@@ -57,12 +57,12 @@ export default function RootLayout({
     "description": "High-performance consulting, accounting, and tax advisory services for visionary businesses.",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Lagos",
-      "addressCountry": "NG"
+      "addressRegion": "PA, NJ, DE, MD, TX, FL",
+      "addressCountry": "US"
     },
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+2340000000000",
+      "telephone": "+10000000000",
       "contactType": "customer service"
     }
   };
