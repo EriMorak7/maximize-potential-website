@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, BarChart3, Calculator, ShieldCheck } from "lucide-react";
+import { ArrowRight, BarChart3, Calculator, ShieldCheck, Receipt, MonitorPlay } from "lucide-react";
 
 export default function Home() {
   return (
@@ -96,6 +96,34 @@ export default function Home() {
                 Expert guidance on strategy, operations, and growth to help you reach your maximum potential in any market.
               </p>
               <Link href="/services#consulting" className="text-accent font-bold inline-flex items-center hover:underline">
+                Learn More <ArrowRight className="ml-1 w-4 h-4" />
+              </Link>
+            </div>
+
+            {/* Billing Services */}
+            <div className="p-8 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow group">
+              <div className="w-14 h-14 bg-primary/5 rounded-lg flex items-center justify-center mb-6 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                <Receipt className="w-8 h-8" />
+              </div>
+              <h3 className="text-2xl font-serif font-bold mb-4">Billing Services</h3>
+              <p className="text-muted leading-relaxed mb-6">
+                Streamline your financial operations with accurate, timely invoicing and efficient revenue management solutions.
+              </p>
+              <Link href="/services#billing" className="text-accent font-bold inline-flex items-center hover:underline">
+                Learn More <ArrowRight className="ml-1 w-4 h-4" />
+              </Link>
+            </div>
+
+            {/* Multi Media Services */}
+            <div className="p-8 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow group">
+              <div className="w-14 h-14 bg-primary/5 rounded-lg flex items-center justify-center mb-6 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                <MonitorPlay className="w-8 h-8" />
+              </div>
+              <h3 className="text-2xl font-serif font-bold mb-4">Multi Media Services</h3>
+              <p className="text-muted leading-relaxed mb-6">
+                Enhance your brand presence with impactful visual and content solutions designed to engage your audience.
+              </p>
+              <Link href="/services#multimedia" className="text-accent font-bold inline-flex items-center hover:underline">
                 Learn More <ArrowRight className="ml-1 w-4 h-4" />
               </Link>
             </div>

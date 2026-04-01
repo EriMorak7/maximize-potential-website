@@ -50,6 +50,8 @@ export default function ContactPage() {
                     <option>Accounting Services</option>
                     <option>Tax Advisory</option>
                     <option>Business Consulting</option>
+                    <option>Billing Services</option>
+                    <option>Multi Media Services</option>
                     <option>General Inquiry</option>
                   </select>
                 </div>

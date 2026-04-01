@@ -57,6 +57,8 @@ export default function Footer() {
               <li><Link href="/services#tax" className="text-gray-400 hover:text-white transition-colors">Tax Advisory</Link></li>
               <li><Link href="/services#consulting" className="text-gray-400 hover:text-white transition-colors">Business Consulting</Link></li>
               <li><Link href="/services#cfo" className="text-gray-400 hover:text-white transition-colors">CFO Advisory</Link></li>
+              <li><Link href="/services#billing" className="text-gray-400 hover:text-white transition-colors">Billing Services</Link></li>
+              <li><Link href="/services#multimedia" className="text-gray-400 hover:text-white transition-colors">Multi Media Services</Link></li>
             </ul>
           </div>
 

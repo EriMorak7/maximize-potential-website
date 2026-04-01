@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, BarChart3, Calculator, ShieldCheck, CheckCircle2 } from "lucide-react";
+import { ArrowRight, BarChart3, Calculator, ShieldCheck, CheckCircle2, Receipt, MonitorPlay } from "lucide-react";
 
 const services = [
   {
@@ -44,6 +44,34 @@ const services = [
       "CFO Advisory Services"
     ],
     image: "/img/two-handsome-young-business-colleagues-600nw-2523200393.webp"
+  },
+  {
+    id: "billing",
+    title: "Billing Services",
+    icon: <Receipt className="w-10 h-10" />,
+    description: "Streamline your financial operations with our comprehensive billing services. We ensure accurate, timely invoicing and efficient revenue management.",
+    features: [
+      "Automated Invoicing Systems",
+      "Payment Processing Solutions",
+      "Accounts Receivable Management",
+      "Custom Billing Cycle Setup",
+      "Revenue Tracking & Reporting"
+    ],
+    image: "/img/istockphoto-1947499362-612x612.jpg"
+  },
+  {
+    id: "multimedia",
+    title: "Multi Media Services",
+    icon: <MonitorPlay className="w-10 h-10" />,
+    description: "Enhance your brand presence and communication with our professional multi media services, delivering impactful visual and content solutions.",
+    features: [
+      "Corporate Video Production",
+      "Brand Identity & Graphic Design",
+      "Digital Content Strategy",
+      "Interactive Presentations",
+      "Social Media Visual Assets"
+    ],
+    image: "/img/360_F_784552498_ELXaz1kitkzo6edWyDFkWThhMlkyNDHn.jpg"
   }
 ];
 
